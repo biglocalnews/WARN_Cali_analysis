@@ -9,10 +9,15 @@ The data was collected from:
 - population data from: https://www.census.gov/data/tables/time-series/demo/popest/2010s-counties-total.html#par_textimage_242301767
 
 `1_cali_hist_data.ipynb` walks through the steps taken to combine the data and create the historical file.
+
 `2_winnow_counties.ipynb` walks through the steps taken to look into california counties based on high rent payments at the household level.
+
 `3_rent_burden_calc.ipynb` walks through the steps taken to figure out which counties with high rent burdens also have public housing authorities. 
+
 `4_cali_warn_ambiguous_cities.ipynb` walks through the steps taken to figure out which cities have the incorrect county listed due to data entry errors. 
+
 `5_cali_warn_analysis_2019_2020.ipynb` walks through the full analysis of the data and how the figures that ended up in the evictions story were extracted.
+
 
 ### Background on Analysis
 
