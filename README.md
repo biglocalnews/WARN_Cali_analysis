@@ -18,7 +18,10 @@ The data was collected from:
 
 ### Directories
 
-Data in the `cali_hist_data/` directory is linked to `1_cali_hist_data.ipynb` - each of the files ending in `.pdf` is the actual downloaded PDF from California's WARN Notices website. Each file ending in `.csv` of the same name is the comma-seperated-values version of those PDF tables. `cali_warn_hist.csv` is a file of all the years 2014-2019 combined. The California WARN Notices scraper scrapes the website daily and adds the entries from 2020-on to the historical file creating a complete version of the data. This file you can find in `analysis_data/california_warn_raw_recent.csv`.
+Data in the `cali_hist_data/` directory is linked to `1_cali_hist_data.ipynb`. 
+- Each of the files ending in `.pdf` is the actual downloaded PDF from California's WARN Notices website. 
+- Each file ending in `.csv` of the same name is the comma-seperated-values version of those PDF tables. - `cali_warn_hist.csv` is a file of all the years 2014-2019 combined. 
+- The California WARN Notices scraper scrapes the website daily and adds the entries from 2020-on to the historical file creating a complete version of the data. This file you can find in `analysis_data/california_warn_raw_recent.csv`.
 
 Data in the `rent_burden_data/` directory is linked to `2_winnow_counties.ipynb` and `3_rent_burden_calc.ipynb`.
 
