@@ -10,11 +10,11 @@ The data was collected from:
 
 ### Notebooks
 
--`1_cali_hist_data.ipynb` walks through the steps taken to combine the data and create the historical california warn layoffs file.
--`2_winnow_counties.ipynb` walks through the steps taken to look into california counties based on high rent payments at the household level. Households that pay more than 50% of their gross income in rent are considered to fall under the category of households with a high rent burden. 
--`3_rent_burden_calc.ipynb` walks through the steps taken to add data detailing median gross rent as a percentage of household income per county, which then gets combined with the public housing authorities table and the high rent burden percentage per county table. 
--`4_cali_warn_ambiguous_cities.ipynb` walks through the steps taken to figure out which cities have the incorrect county listed due to data entry errors. 
--`5_cali_warn_analysis_2019_2020.ipynb` walks through the full analysis of the data and how the figures that ended up in the evictions story were extracted.
+- `1_cali_hist_data.ipynb` walks through the steps taken to combine the data and create the historical california warn layoffs file.
+- `2_winnow_counties.ipynb` walks through the steps taken to look into california counties based on high rent payments at the household level. Households that pay more than 50% of their gross income in rent are considered to fall under the category of households with a high rent burden. 
+- `3_rent_burden_calc.ipynb` walks through the steps taken to add data detailing median gross rent as a percentage of household income per county, which then gets combined with the public housing authorities table and the high rent burden percentage per county table. 
+- `4_cali_warn_ambiguous_cities.ipynb` walks through the steps taken to figure out which cities have the incorrect county listed due to data entry errors. 
+- `5_cali_warn_analysis_2019_2020.ipynb` walks through the full analysis of the data and how the figures that ended up in the evictions story were extracted.
 
 ### Directories
 
