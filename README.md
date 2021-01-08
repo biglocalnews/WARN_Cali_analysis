@@ -1,4 +1,4 @@
-## California’s layoffs and closures of 2019 and 2020.
+## California’s layoffs and closures of 2019 and 2020 by Big Local News
 
 ### Data Gathering and Ordering
 
