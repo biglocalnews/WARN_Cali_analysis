@@ -10,8 +10,8 @@ For the purposes of this story, we've only done specific analyses on counties wi
 This data was used as a section in a larger evictions story written by Big Local News. 
 
 The data was collected from:
-- California WARN data: https://edd.ca.gov/Jobs_and_Training/Layoff_Services_WARN.htm
-- population data from: https://www.census.gov/data/tables/time-series/demo/popest/2010s-counties-total.html#par_textimage_242301767
+- [California WARN data](https://edd.ca.gov/Jobs_and_Training/Layoff_Services_WARN.htm)
+- [population data from](https://www.census.gov/data/tables/time-series/demo/popest/2010s-counties-total.html#par_textimage_242301767)
 
 
 
