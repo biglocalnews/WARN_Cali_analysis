@@ -16,31 +16,28 @@ The data was collected from:
 
 ## Set up
 
-To use the code in this project blablba (make pretty) you need to install … Pandas and Jupyter/Jupyter lab - update readme (to run this to you need to install pandas and Jupyter/jupyter lab. (Provide links for install pages for both)
+To use the code in this project, install the [pandas](https://pypi.org/project/pandas/) and [jupyter/jupyter lab](https://pypi.org/project/jupyterlab/) libraries.
 
 ```
-pip install -r requirements.txt
-```
+pip install jupyterlab pandas
 
-Brush up readme - put a section on installation.
-Either pip install Jupyter pandas
-Alternatively, feel free to install Jupyter lab
+```
 
 ## Usage
 
-`processed_data.ipynb` and `rent_burden_calculation.ipynb` can be run simultaneously. The `processed` directory holds all WARN layoff records that were downloaded from the Employment Development Department. `processed_data.ipynb` creates a single file of all those records and exports it back to the `processed` directory.
+[processed_data.ipynb](https://github.com/biglocalnews/WARN_Cali_analysis/blob/master/notebooks/processed_data.ipynb) and [rent_burden_calculation.ipynb](https://github.com/biglocalnews/WARN_Cali_analysis/blob/master/notebooks/rent_burden_calculation.ipynb) can be run simultaneously. The `processed` directory holds all WARN layoff records that were downloaded from the Employment Development Department. [processed_data.ipynb](https://github.com/biglocalnews/WARN_Cali_analysis/blob/master/notebooks/processed_data.ipynb) creates a single file of all those records and exports it back to the `processed` directory.
 
-`rent_burden_calculation.ipynb` takes ACS rent as a % of income data and the list of public housing authorities in California. With these two datasets, the rent burden in each county is calculated and merged with he public housing data, creating a table that shows the rent burden for the counties of each housing authority. This file is exported to the `rent_burden` directory as a full version with all of the columns and a truncated version with only the necessary columns.
+[rent_burden_calculation.ipynb](https://github.com/biglocalnews/WARN_Cali_analysis/blob/master/notebooks/rent_burden_calculation.ipynb) takes ACS rent as a % of income data and the list of public housing authorities in California. With these two datasets, the rent burden in each county is calculated and merged with he public housing data, creating a table that shows the rent burden for the counties of each housing authority. This file is exported to the `rent_burden` directory as a full version with all of the columns and a truncated version with only the necessary columns.
 
 Run the following notebooks in order:
 
-1. `data_cleaning.ipynb`
-2. `harmonize_dedupe.ipynb`
-3. `warn_analysis.ipynb`
+1. [data_cleaning.ipynb](https://github.com/biglocalnews/WARN_Cali_analysis/blob/master/notebooks/data_cleaning.ipynb)
+2. [open_refine_dedupe.ipynb](https://github.com/biglocalnews/WARN_Cali_analysis/blob/master/notebooks/open_refine_dedupe.ipynb)
+3. [layoffs_analysis.ipynb](https://github.com/biglocalnews/WARN_Cali_analysis/blob/master/notebooks/layoffs_analysis.ipynb)
 
-`data_cleaning.ipynb` cleans the data. Here, we get rid of white space and resolve conflicts between incorrect county names. Census population estimates are also read in and combined with the cleaned data. This file is exported to the `open_refine` directory. Update code so that there’s an open refine directory and it actually exports the file there.
+[data_cleaning.ipynb](https://github.com/biglocalnews/WARN_Cali_analysis/blob/master/notebooks/data_cleaning.ipynb) cleans the data.
 
-The file is then manually cleaned in open refine. In this file, we detail the steps we took to standardize the data. This folder contains all of the changes made to our data via open refine.
+
 
 
 
