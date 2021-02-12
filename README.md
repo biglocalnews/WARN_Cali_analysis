@@ -35,7 +35,17 @@ Run the following notebooks in order:
 2. [open_refine_dedupe.ipynb](https://github.com/biglocalnews/WARN_Cali_analysis/blob/master/notebooks/open_refine_dedupe.ipynb)
 3. [layoffs_analysis.ipynb](https://github.com/biglocalnews/WARN_Cali_analysis/blob/master/notebooks/layoffs_analysis.ipynb)
 
-[data_cleaning.ipynb](https://github.com/biglocalnews/WARN_Cali_analysis/blob/master/notebooks/data_cleaning.ipynb) cleans the data.
+[data_cleaning.ipynb](https://github.com/biglocalnews/WARN_Cali_analysis/blob/master/notebooks/data_cleaning.ipynb) cleans the data. The process of data-cleaning is outlined at the top of the notebook and throughout. Once the data has been transformed by the notebook, it is ready written to the `open_refine` directory and is ready to be further standardized in [OpenRefine](https://openrefine.org/).
+
+### Manual Standardizing with OpenRefine
+
+After you run `data_cleaning.ipynb`, there is a manual break in the process. The `open_refine/clean_warn_data.csv` file has to be imported into OpenRefine and cleaned with the various algorithms made available through the software. [open_refine_dedupe.ipynb](https://github.com/biglocalnews/WARN_Cali_analysis/blob/master/notebooks/open_refine_dedupe.ipynb) details the process of cleaning in OpenRefine. 
+
+Once the data has been thoroughly processed in OpenRefine, the data then must be ***exported*** from OpenRefine and ***re-added*** to the `open_refine` directory of this repository as `open_refine_exported_warn_data.csv`. 
+
+The [open_refine_dedupe.ipynb](https://github.com/biglocalnews/WARN_Cali_analysis/blob/master/notebooks/open_refine_dedupe.ipynb) notebook will remove possible duplicate records from the data. The deduplicated data will then be exported to the `analysis` directory as `finalized_warn_data.csv` where it will be ready for analysis.
+
+
 
 
 
