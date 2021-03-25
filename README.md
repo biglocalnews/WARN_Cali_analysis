@@ -19,6 +19,8 @@ The data was collected from:
 To use the code in this project, install the [pandas](https://pypi.org/project/pandas/) and [jupyter/jupyter lab](https://pypi.org/project/jupyterlab/) libraries.
 
 ```
+git clone git@github.com:biglocalnews/WARN_Cali_analysis.git
+
 pip install jupyterlab pandas
 
 ```
